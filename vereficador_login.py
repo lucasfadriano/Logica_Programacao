@@ -1,0 +1,7 @@
+usuario = input("Usuario: ")
+senha = input("Senha: ")
+
+if usuario == "admin" and senha == "1234":
+    print("Acesso Liberado!")
+else:
+    print("Acesso Negado!")
